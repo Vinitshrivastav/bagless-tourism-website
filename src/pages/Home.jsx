@@ -1,16 +1,10 @@
-import React from "react";
 import "tailwindcss/tailwind.css";
 import card01 from "../assets/images/gallery-01.jpg";
 import card02 from "../assets/images/gallery-02.jpg";
 import card03 from "../assets/images/gallery-03.jpg";
-import icon01 from "../assets/images/icon01.png";
-import icon02 from "../assets/images/icon02.png";
-import icon03 from "../assets/images/icon03.png";
 import SearchBar from "../shared/searchBar/SearchBar";
 import ServicesList from "../components/services/ServicesList";
 import FeaturedTourList from "../components/featruredTour/FeaturedTourList";
-import { Link } from "react-router-dom";
-import { BsArrowRight } from "react-icons/bs";
 import FaqList from "../components/Faq/FaqList";
 import Testimonials from "../components/Testimonials/Testimonials";
 import faqImg from "../assets/images/experience.png";
@@ -31,18 +25,18 @@ const Home = () => {
                 </span>
               </h1>
               <p className="text-lg leading-8 text-gray-800 hidden md:block">
-                "Welcome to TripsTravel, your go-to destination for
+                Welcome to TripsTravel, your go-to destination for
                 unforgettable adventures! Explore diverse destinations, plan
                 seamlessly, and embark on a journey of a lifetime. Discover
                 handpicked accommodations, connect with like-minded travelers,
                 and create lasting memories. Your next adventure awaits with
-                TripsTravel!"
+                TripsTravel!
               </p>
 
               <p className="mobpara md:hidden ">
-                "Welcome to TripsTravel, your go-to destination for
+                Welcome to TripsTravel, your go-to destination for
                 unforgettable adventures! Explore diverse destinations, plan
-                seamlessly, and embark on a journey of a lifetime."
+                seamlessly, and embark on a journey of a lifetime.
               </p>
             </div>
           </div>
@@ -74,8 +68,8 @@ const Home = () => {
               </span>
             </h2>
             <p className="para md:text-lg md:leading-8 md:text-start md:text-gray-800">
-              "Empowering Your Journey: Unrivaled Services Tailored to Elevate
-              Your Experience."
+              Empowering Your Journey: Unrivaled Services Tailored to Elevate
+              Your Experience.
             </p>
             {/* Add Slider Component or Carousel Component if needed */}
           </div>
@@ -92,8 +86,8 @@ const Home = () => {
           </span>
         </h1>
         <p className="text-lg leading-8 mb-8 text-gray-800">
-          "Unveil travel wonders in our gallery, a snapshot of TripsTravel's
-          adventures."
+          Unveil travel wonders in our gallery, a snapshot of TripsTravel&apos;s
+          adventures.
         </p>
         <ImagesGallery />
       </section>
@@ -103,8 +97,8 @@ const Home = () => {
           Featured Tours
         </h1>
         <p className="para md:text-lg md:leading-8 md:text-gray-800">
-          "Embark on Unforgettable Journeys: Discover Our Featured Tours, Where
-          Adventure Meets Extraordinary Experiences."
+          Embark on Unforgettable Journeys: Discover Our Featured Tours, Where
+          Adventure Meets Extraordinary Experiences.
         </p>
         <div className="">
           <FeaturedTourList />
@@ -123,8 +117,8 @@ const Home = () => {
               </span>
             </h1>
             <p className="text-lg font-paraFont font-bold leading-8 mb-8 text-gray-800">
-              "Read what our travelers have to say in their own words. Real
-              stories, real experiences."
+              Read what our travelers have to say in their own words. Real
+              stories, real experiences.
             </p>
           </div>
           <Testimonials />
@@ -155,4 +149,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Home
